@@ -7,7 +7,7 @@ import Image2 from '../../assets/data.png';
 const Blog = () => {
     return (
         <section className="blog container section" id="blog">
-            <h2 className="section__title">Latest Posts</h2>
+            <h2 className="section__title">Latest Project</h2>
 
             <div className="blog__container grid">
                 {/* First Project */}

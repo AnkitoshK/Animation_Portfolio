@@ -14,7 +14,16 @@
 
 .home__img {
   margin-bottom: 1.5rem;
+  width: 220px;
+  height: 270px;
+  border-radius: 48%;
+  object-fit: cover;
+  -webkit-border-radius: 48%;
+  -moz-border-radius: 48%;
+  -ms-border-radius: 48%;
+  -o-border-radius: 48%;
 }
+
 
 .home__name {
   font-size: var(--h1-font-size);

@@ -133,7 +133,14 @@
 
   .about__img {
     justify-self: center;
-  }
+    border-radius: 40%;
+    margin-top: 10px;
+    object-fit: cover;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
 
   .about__box {
     flex-direction: column;

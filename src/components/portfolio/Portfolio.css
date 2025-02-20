@@ -17,6 +17,15 @@
   transition: 0.3s;
 }
 
+.portfolio__img {
+  width: 350px;  /* Set a fixed width */
+  height: 250px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image fits without distortion */
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
 .portfolio__item-active {
   color: var(--first-color);
 }
