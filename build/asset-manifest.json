@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb9bede7.css",
+    "main.js": "/static/js/main.9ed6293d.js",
+    "static/media/restro.png": "/static/media/restro.767c2de07241e7b1f1d8.png",
+    "static/media/4chakka.png": "/static/media/4chakka.32f9a3a8de201c828eca.png",
+    "static/media/data.png": "/static/media/data.3cfb51159514b57e56b1.png",
+    "static/media/clinic.png": "/static/media/clinic.17d58236927fd00b0a65.png",
+    "static/media/avatar-1.jpg": "/static/media/avatar-1.c5ace4269cccedac7f64.jpg",
+    "static/media/resume.pdf": "/static/media/resume.31d8941e3e887d941086.pdf",
+    "static/media/job.png": "/static/media/job.669a17ce55647de50981.png",
+    "static/media/service-2.svg": "/static/media/service-2.360040db94db03a3ca860042e67c4912.svg",
+    "static/media/service-1.svg": "/static/media/service-1.e6772bd53c577af49129f09d020b488f.svg",
+    "static/media/logo.svg": "/static/media/logo.e3a24721fc1de71803a80941b5611f71.svg",
+    "static/media/dots-bg-dark.svg": "/static/media/dots-bg-dark.3fb919e37bd3f4cdeed2.svg",
+    "static/media/dots-bg.svg": "/static/media/dots-bg.f9af2a6a4e3508808a05.svg",
+    "static/media/light-logo.svg": "/static/media/light-logo.060bc1a33908778a0f6c21523c22a8dd.svg",
+    "index.html": "/index.html",
+    "main.bb9bede7.css.map": "/static/css/main.bb9bede7.css.map",
+    "main.9ed6293d.js.map": "/static/js/main.9ed6293d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb9bede7.css",
+    "static/js/main.9ed6293d.js"
+  ]
+}
