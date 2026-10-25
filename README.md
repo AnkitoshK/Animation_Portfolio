@@ -1,73 +1,102 @@
-# Animation_Portfolio
+# 🚀 Ankitosh Kumar - Software Developer & Application Engineer Portfolio
 
-# 🚀 My Portfolio  
+[![Vercel Deployment](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://animation-portfolio-one.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-AnkitoshK-181717?style=for-the-badge&logo=github)](https://github.com/AnkitoshK/Animation_Portfolio)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ankitosh_Kumar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ankitosh-kumar-7682a91b6)
 
-Welcome to my personal portfolio! This project showcases my skills, projects, and experiences as a developer. The website is built using modern web technologies, ensuring a clean, responsive, and interactive design.  
+> **Live Portfolio:** [animation-portfolio-one.vercel.app](https://animation-portfolio-one.vercel.app/)  
+> **GitHub Repository:** [github.com/AnkitoshK/Animation_Portfolio](https://github.com/AnkitoshK/Animation_Portfolio)
 
-## 🌟 Features  
+Welcome to the personal developer portfolio of **Ankitosh Kumar**, Application Engineer and Full-Stack Software Developer. This project highlights enterprise application support (CDSCO ONDLS & Tata Power AMISP), SQL database engineering, full-stack systems (**WorkMate AI**, **BAMS**), and technical case studies with an interactive terminal and developer aesthetics.
 
-- 🖥️ **Modern UI** – Clean and minimalistic design  
-- 🎨 **Responsive Layout** – Optimized for mobile, tablet, and desktop  
-- 🚀 **Fast Performance** – Optimized for speed and efficiency  
-- 📄 **Projects Showcase** – Displays my latest work and achievements  
-- 📩 **Contact Section** – Easily reach out via a contact form  
-- 🎭 **Dark/Light Mode** – Toggle between themes  
+---
 
-## 🛠️ Technologies Used  
+## 🌟 Key Features
 
-- **Frontend:** React.js, JavaScript, CSS  
-- **State Management:** React Hooks  
-- **Styling:** CSS3, Tailwind CSS  
-- **Icons:** FontAwesome, React Icons  
-- **Animations:** Framer Motion  
-- **Hosting:** GitHub Pages / Vercel  
+- 🖥️ **Developer-Centric Hero Section** – Live status badge, code preview card with copy-to-clipboard functionality, and profile tech framing.
+- ⚡ **Interactive Terminal Simulator** – Run simulated CLI commands (`whoami`, `skills`, `experience`, `education`, `certs`, `clear`) right from the browser.
+- 📊 **Comprehensive Skills Matrix** – Categorized proficiencies across Java, Spring Boot, React, Next.js, TypeScript, MSSQL, PostgreSQL, and Dev Tools.
+- 💼 **Experience & Education Tabs** – Multi-tabbed breakdown of enterprise roles (E-Solutions/CDSCO, Adecco/Tata Power), academic degrees (MCA & BCA), and certifications.
+- 🚀 **Featured Projects Showcase** – Filterable project catalog with live previews for WorkMate AI, BAMS, Clinic Care, Suraksha Prahari, and database architectures.
+- 📖 **Engineering Deep Dives** – Production case studies on automated incident triage, technician lifecycle management, and cross-layer SQL query optimization.
+- 🌗 **Light & Dark Themes** – High-contrast dark IDE canvas and crisp daylight mode with custom CSS tokens.
+- 📱 **100% Responsive Design** – Tailored typography and layouts for mobile, tablet, and desktop viewports.
 
-## 📂 Project Structure  
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React 18, Next.js concepts, TypeScript, HTML5, CSS3 (Vanilla CSS variables)
+- **Backend & APIs:** Java Spring Boot, Node.js, Express.js, RESTful APIs
+- **Databases:** Microsoft SQL Server (MSSQL), PostgreSQL, MySQL, Prisma ORM
+- **Animations & Icons:** Framer Motion, React Icons (Remix Icons, FontAwesome)
+- **Deployment & Hosting:** Vercel
+
+---
+
+## 📂 Project Structure
 
 ```bash
-📦 My-Portfolio  
-├── 📂 public/        # Static assets  
-├── 📂 src/           # Main source code  
-│   ├── 📂 components/  # Reusable UI components  
-│   ├── 📂 pages/       # Pages like Home, About, Projects, Contact  
-│   ├── 📂 assets/      # Images, icons, and other assets  
-│   ├── App.js         # Main React component  
-│   ├── index.js       # Entry point  
-│   ├── styles.css     # Global styles  
-├── .gitignore  
-├── package.json  
-├── README.md  
+Animation_Portfolio/
+├── 📂 public/              # Favicon, HTML entry point, and web manifest
+├── 📂 src/
+│   ├── 📂 assets/          # Project screenshots, avatar, and resume PDF
+│   ├── 📂 components/
+│   │   ├── 📂 home/        # Hero section, code card, and status badge
+│   │   ├── 📂 about/       # Bio, interactive CLI terminal, and skills matrix
+│   │   ├── 📂 services/    # Engineering competencies and domains
+│   │   ├── 📂 resume/      # Experience, Education, and Certifications tabs
+│   │   ├── 📂 portfolio/   # Filterable projects grid and tech tags
+│   │   ├── 📂 blog/        # Technical case studies & architectural write-ups
+│   │   ├── 📂 contact/     # Direct contact cards and EmailJS dispatcher
+│   │   └── 📂 sidebar/     # Navigation bar and dark/light mode toggle
+│   ├── App.js              # Root application component
+│   ├── App.css             # Layout margin utilities
+│   ├── index.js            # React root mount
+│   └── index.css           # Global design system, typography & theme tokens
+├── package.json
+└── README.md
+```
 
-🛠️ Installation Steps
-1️⃣ Install Yarn via npm (Recommended)
-If you already have Node.js installed, you can install Yarn globally using npm:
-npm install --global yarn
+---
 
-✅ Verify installation:
-yarn --version
+## 🚀 Local Installation & Setup
 
-🚀 Installation & Setup
-To set up and run this project locally, follow these steps:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/AnkitoshK/Animation_Portfolio.git
+   cd Animation_Portfolio
+   ```
 
-1️⃣ Clone the Repository
-git clone https://github.com/AnkitoshK/Portfolio.git
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-2️⃣ Navigate to the Project Directory
-cd Portfolio
+3. **Start the development server:**
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-3️⃣ Install Dependencies
-yarn install
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
 
-4️⃣ Start the Development Server
-yarn start
+---
 
-🌍 Deployment
-The portfolio is deployed on GitHub Pages / Vercel / Netlify.
-You can visit the live version here :- https://animation-portfolio-one.vercel.app/
+## 📬 Contact & Connect
 
-🤝 Contributing
-If you find a bug or have a suggestion, feel free to open an issue or submit a pull request!
-
-📬 Contact
-📧 Email: gankitoshgupta52@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/ankitosh-kumar-7682a91b6/
+- **Name:** Ankitosh Kumar
+- **Role:** Application Engineer & Software Developer
+- **Location:** Patna, Bihar, India
+- **Phone:** [+91 8271311102](tel:+918271311102)
+- **Email:** [ankitoshgupta4379@gmail.com](mailto:ankitoshgupta4379@gmail.com)
+- **LinkedIn:** [linkedin.com/in/ankitosh-kumar-7682a91b6](https://www.linkedin.com/in/ankitosh-kumar-7682a91b6/)
+- **GitHub:** [github.com/AnkitoshK](https://github.com/AnkitoshK)
+- **Live Deployment:** [animation-portfolio-one.vercel.app](https://animation-portfolio-one.vercel.app/)

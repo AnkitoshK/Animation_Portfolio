@@ -1,33 +1,54 @@
 import React from 'react';
-import { FaGithub, FaHackerrank, FaLinkedinIn } from 'react-icons/fa';
-// import { SiHashnode } from 'react-icons/si'
+import { FaGithub, FaHackerrank, FaLinkedinIn, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 
 const HeaderSocials = () => {
     return (
         <div className='home__socials'>
-            <a href='https://github.com/AnkitoshK' className='home__social-link' target='_blank' rel='noreferrer'>
+            <a 
+                href='https://github.com/AnkitoshK' 
+                className='home__social-link' 
+                target='_blank' 
+                rel='noreferrer'
+                title='GitHub Profile'
+            >
                 <FaGithub />
             </a>
 
-            {/* <a href='https://hashnode.com/@gregsithole' className='home__social-link' target='_blank' rel='noreferrer'>
-                <SiHashnode />
-            </a> */}
-
-            {/* <a href='https://dev.to/gregsithole' className='home__social-link' target='_blank' rel='noreferrer'>
-                <FaDev />
-            </a> */}
-
-            <a href='https://www.linkedin.com/in/ankitosh-kumar-7682a91b6/' className='home__social-link' target='_blank' rel='noreferrer'>
+            <a 
+                href='https://www.linkedin.com/in/ankitosh-kumar-7682a91b6' 
+                className='home__social-link' 
+                target='_blank' 
+                rel='noreferrer'
+                title='LinkedIn Profile'
+            >
                 <FaLinkedinIn />
             </a>
 
-            <a href='https://www.hackerrank.com/profile/ankitosh_kumar' className='home__social-link' target='_blank' rel='noreferrer'>
-            <FaHackerrank />
+            <a 
+                href='https://www.hackerrank.com/profile/ankitosh_kumar' 
+                className='home__social-link' 
+                target='_blank' 
+                rel='noreferrer'
+                title='HackerRank Profile'
+            >
+                <FaHackerrank />
             </a>
 
-            {/* <a href='https://www.twitter.com/GregSithole' className='home__social-link' target='__blank' rel='noreferrer'>
-                <FaTwitter />
-            </a> */}
+            <a 
+                href='mailto:ankitoshgupta4379@gmail.com' 
+                className='home__social-link' 
+                title='Send Email (ankitoshgupta4379@gmail.com)'
+            >
+                <FaEnvelope />
+            </a>
+
+            <a 
+                href='tel:+918271311102' 
+                className='home__social-link' 
+                title='Call / WhatsApp (+91 8271311102)'
+            >
+                <FaPhoneAlt />
+            </a>
         </div>
     );
 };
