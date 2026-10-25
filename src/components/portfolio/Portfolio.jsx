@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 
 const filterCategories = [
     { label: "All Projects", key: "All" },
+    { label: "Freelancing", key: "Freelancing" },
     { label: "Full Stack", key: "Full Stack" },
     { label: "Enterprise & DB", key: "Database" },
     { label: "Frontend", key: "Frontend" },
@@ -47,7 +48,7 @@ const Portfolio = () => {
 
             <div className="portfolio__container grid">
                 {items.map((elem) => {
-                    const { id, image, title, subtitle, stack, description, repositoryUrl, featured } = elem;
+                    const { id, image, title, subtitle, stack, description, repositoryUrl, liveUrl, featured, badge } = elem;
 
                     return (
                         <motion.div
@@ -71,9 +72,23 @@ const Portfolio = () => {
                                     >
                                         <RiGithubLine /> GitHub Repo
                                     </a>
+                                    {liveUrl && (
+                                        <a
+                                            href={liveUrl}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="portfolio__overlay-btn portfolio__overlay-btn--live"
+                                            title="Visit Live Website"
+                                        >
+                                            <RiExternalLinkLine /> Live Demo
+                                        </a>
+                                    )}
                                 </div>
                                 {featured && (
                                     <span className="featured-badge">Featured System</span>
+                                )}
+                                {badge && (
+                                    <span className="badge--freelance">{badge}</span>
                                 )}
                             </div>
 
@@ -96,16 +111,18 @@ const Portfolio = () => {
                                         target="_blank"
                                         rel="noreferrer"
                                         className="portfolio__action-btn"
+                                        title="View Source on GitHub"
                                     >
                                         <RiCodeBoxLine /> Repository
                                     </a>
                                     <a
-                                        href={repositoryUrl}
+                                        href={liveUrl || repositoryUrl}
                                         target="_blank"
                                         rel="noreferrer"
                                         className="portfolio__action-btn portfolio__action-btn--primary"
+                                        title={liveUrl ? "Visit Live Website" : "View Project Details"}
                                     >
-                                        <RiExternalLinkLine /> Details
+                                        <RiExternalLinkLine /> {liveUrl ? "Live Demo" : "Details"}
                                     </a>
                                 </div>
                             </div>

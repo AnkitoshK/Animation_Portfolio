@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5819a731.css",
-    "main.js": "/static/js/main.f036ae50.js",
+    "main.css": "/static/css/main.16fd2413.css",
+    "main.js": "/static/js/main.817738aa.js",
     "static/media/bams.jpg": "/static/media/bams.90b6ef03a89d51baeaf9.jpg",
     "static/media/workmate.jpg": "/static/media/workmate.c78e27f10a32751d8060.jpg",
     "static/media/restro.png": "/static/media/restro.767c2de07241e7b1f1d8.png",
@@ -11,16 +11,17 @@
     "static/media/avatar-1.jpg": "/static/media/avatar-1.c5ace4269cccedac7f64.jpg",
     "static/media/Ankitosh_Resume_BE.pdf": "/static/media/Ankitosh_Resume_BE.3e8d1cf2868cd5166ddc.pdf",
     "static/media/job.png": "/static/media/job.669a17ce55647de50981.png",
+    "static/media/softech.jpg": "/static/media/softech.86c96f0fc7441c8e5caf.jpg",
     "static/media/logo.svg": "/static/media/logo.e3a24721fc1de71803a80941b5611f71.svg",
     "static/media/dots-bg-dark.svg": "/static/media/dots-bg-dark.3fb919e37bd3f4cdeed2.svg",
     "static/media/dots-bg.svg": "/static/media/dots-bg.f9af2a6a4e3508808a05.svg",
     "static/media/light-logo.svg": "/static/media/light-logo.060bc1a33908778a0f6c21523c22a8dd.svg",
     "index.html": "/index.html",
-    "main.5819a731.css.map": "/static/css/main.5819a731.css.map",
-    "main.f036ae50.js.map": "/static/js/main.f036ae50.js.map"
+    "main.16fd2413.css.map": "/static/css/main.16fd2413.css.map",
+    "main.817738aa.js.map": "/static/js/main.817738aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.5819a731.css",
-    "static/js/main.f036ae50.js"
+    "static/css/main.16fd2413.css",
+    "static/js/main.817738aa.js"
   ]
 }

@@ -137,7 +137,7 @@ const Home = () => {
 {'    '}<span className="token-property">client</span>: <span className="token-string">"CDSCO (Online National Drug Licensing)"</span>,{'\n'}
 {'    '}<span className="token-property">focus</span>: <span className="token-string">"MSSQL, Java/Spring, Defect Resolution"</span>{'\n'}
 {'  '}&#125;,{'\n'}
-{'  '}<span className="token-property">highlightProjects</span>: [<span className="token-string">"WorkMate AI"</span>, <span className="token-string">"BAMS"</span>, <span className="token-string">"Clinic Care"</span>],{'\n'}
+{'  '}<span className="token-property">highlightProjects</span>: [<span className="token-string">"WorkMate AI"</span>, <span className="token-string">"Soft Tech Solution"</span>, <span className="token-string">"BAMS"</span>],{'\n'}
 {'  '}<span className="token-property">portfolio</span>: <span className="token-string">"https://ankitosh-portfolio.vercel.app/"</span>,{'\n'}
 {'  '}<span className="token-property">isReadyToCode</span>: <span className="token-boolean">true</span>{'\n'}
 &#125;;

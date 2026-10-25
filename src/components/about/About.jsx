@@ -96,7 +96,7 @@ const terminalCommands = {
 const About = () => {
     const [terminalHistory, setTerminalHistory] = useState([
         { cmd: "whoami", res: terminalCommands.whoami },
-        { cmd: "cat status.log", res: "Supporting CDSCO Online Drug Licensing System. Building WorkMate AI." }
+        { cmd: "cat status.log", res: "Supporting CDSCO Online Drug Licensing System. Building WorkMate AI & Soft Tech Solution." }
     ]);
     const [activeTab, setActiveTab] = useState(0);
 

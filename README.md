@@ -7,7 +7,7 @@
 > **Live Portfolio:** [ankitosh-portfolio.vercel.app](https://ankitosh-portfolio.vercel.app/)  
 > **GitHub Repository:** [github.com/AnkitoshK/Animation_Portfolio](https://github.com/AnkitoshK/Animation_Portfolio)
 
-Welcome to the personal developer portfolio of **Ankitosh Kumar**, Application Engineer and Full-Stack Software Developer. This project highlights enterprise application support (CDSCO ONDLS & Tata Power AMISP), SQL database engineering, full-stack systems (**WorkMate AI**, **BAMS**), and technical case studies with an interactive terminal and developer aesthetics.
+Welcome to the personal developer portfolio of **Ankitosh Kumar**, Application Engineer and Full-Stack Software Developer. This project highlights enterprise application support (CDSCO ONDLS & Tata Power AMISP), SQL database engineering, full-stack systems (**WorkMate AI**, **Soft Tech Solution**, **BAMS**), and technical case studies with an interactive terminal and developer aesthetics.
 
 ---
 
@@ -17,7 +17,7 @@ Welcome to the personal developer portfolio of **Ankitosh Kumar**, Application E
 - ⚡ **Interactive Terminal Simulator** – Run simulated CLI commands (`whoami`, `skills`, `experience`, `education`, `certs`, `clear`) right from the browser.
 - 📊 **Comprehensive Skills Matrix** – Categorized proficiencies across Java, Spring Boot, React, Next.js, TypeScript, MSSQL, PostgreSQL, and Dev Tools.
 - 💼 **Experience & Education Tabs** – Multi-tabbed breakdown of enterprise roles (E-Solutions/CDSCO, Adecco/Tata Power), academic degrees (MCA & BCA), and certifications.
-- 🚀 **Featured Projects Showcase** – Filterable project catalog with live previews for WorkMate AI, BAMS, Clinic Care, Suraksha Prahari, and database architectures.
+- 🚀 **Featured Projects Showcase** – Filterable project catalog with live previews for WorkMate AI, Soft Tech Solution, BAMS, Clinic Care, Suraksha Prahari, and database architectures.
 - 📖 **Engineering Deep Dives** – Production case studies on automated incident triage, technician lifecycle management, and cross-layer SQL query optimization.
 - 🌗 **Light & Dark Themes** – High-contrast dark IDE canvas and crisp daylight mode with custom CSS tokens.
 - 📱 **100% Responsive Design** – Tailored typography and layouts for mobile, tablet, and desktop viewports.
