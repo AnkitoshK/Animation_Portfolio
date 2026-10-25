@@ -1,10 +1,10 @@
 # 🚀 Ankitosh Kumar - Software Developer & Application Engineer Portfolio
 
-[![Vercel Deployment](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://animation-portfolio-one.vercel.app/)
+[![Vercel Deployment](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://ankitosh-portfolio.vercel.app/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-AnkitoshK-181717?style=for-the-badge&logo=github)](https://github.com/AnkitoshK/Animation_Portfolio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ankitosh_Kumar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ankitosh-kumar-7682a91b6)
 
-> **Live Portfolio:** [animation-portfolio-one.vercel.app](https://animation-portfolio-liard.vercel.app/)  
+> **Live Portfolio:** [ankitosh-portfolio.vercel.app](https://ankitosh-portfolio.vercel.app/)  
 > **GitHub Repository:** [github.com/AnkitoshK/Animation_Portfolio](https://github.com/AnkitoshK/Animation_Portfolio)
 
 Welcome to the personal developer portfolio of **Ankitosh Kumar**, Application Engineer and Full-Stack Software Developer. This project highlights enterprise application support (CDSCO ONDLS & Tata Power AMISP), SQL database engineering, full-stack systems (**WorkMate AI**, **BAMS**), and technical case studies with an interactive terminal and developer aesthetics.
@@ -99,4 +99,4 @@ Animation_Portfolio/
 - **Email:** [ankitoshgupta4379@gmail.com](mailto:ankitoshgupta4379@gmail.com)
 - **LinkedIn:** [linkedin.com/in/ankitosh-kumar-7682a91b6](https://www.linkedin.com/in/ankitosh-kumar-7682a91b6/)
 - **GitHub:** [github.com/AnkitoshK](https://github.com/AnkitoshK)
-- **Live Deployment:** [animation-portfolio-one.vercel.app](https://animation-portfolio-one.vercel.app/)
+- **Live Deployment:** [ankitosh-portfolio.vercel.app](https://ankitosh-portfolio.vercel.app/)

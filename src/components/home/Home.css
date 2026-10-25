@@ -113,7 +113,9 @@
   font-weight: 600;
   color: var(--first-color);
   margin-bottom: 1rem;
-  display: block;
+  display: flex;
+  align-items: center;
+  min-height: 2.2rem;
   font-family: var(--code-font);
 }
 

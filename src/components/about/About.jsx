@@ -85,7 +85,7 @@ const skillCategories = [
 
 const terminalCommands = {
     help: "Available commands: whoami, skills, experience, education, certs, stack, clear",
-    whoami: "Ankitosh Kumar - Application Engineer & Software Developer based in Patna, Bihar, India.",
+    whoami: "Ankitosh Kumar - Application Support Engineer & Software Developer based in Patna, Bihar, India.",
     skills: "Core: Java, Spring Boot, React.js, Next.js, TypeScript, Node.js, Express, MSSQL, PostgreSQL, REST APIs.",
     experience: "1. Support Engineer @ E-Solutions IT Services (Client: CDSCO - ONDLS)\n2. Application Support Engineer @ Adecco India (Client: Tata Power TPPPL - AMISP)",
     education: "MCA: Rungta College of Engg & Tech, Bhilai (73.4%, 2022-2024)\nBCA: Maharashtra Institute of Technology (MIT), Pune (79.2%, 2018-2021)",
@@ -143,7 +143,7 @@ const About = () => {
                 <div className="about__content-col">
                     <div className="about__bio-text">
                         <p className="about__description">
-                            Hello! I'm <strong>Ankitosh Kumar</strong>, an <strong>Application Engineer and Software Developer</strong> with strong expertise in supporting mission-critical enterprise platforms, developing full-stack web applications, and performing deep-level SQL database engineering and backend troubleshooting.
+                            Hello! I'm <strong>Ankitosh Kumar</strong>, an <strong>Application Support Engineer and Software Developer</strong> with strong expertise in supporting mission-critical enterprise platforms, developing full-stack web applications, and performing deep-level SQL database engineering and backend troubleshooting.
                         </p>
 
                         <p className="about__description">

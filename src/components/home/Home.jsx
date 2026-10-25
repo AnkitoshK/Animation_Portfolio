@@ -5,6 +5,7 @@ import ResumePDF from '../../assets/Ankitosh_Resume_BE.pdf';
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
 import Shapes from './Shapes';
+import Typewriter from './Typewriter';
 import { RiCodeSSlashLine, RiFileCopyLine, RiCheckLine, RiDownloadLine, RiTerminalBoxLine } from 'react-icons/ri';
 
 const Home = () => {
@@ -13,12 +14,13 @@ const Home = () => {
     const copyCodeSnippet = () => {
         const snippet = `const developer = {
   name: "Ankitosh Kumar",
-  title: "Application Engineer & Software Developer",
+  title: "Application Support Engineer & Full Stack Developer",
   education: "MCA (73.4%) | BCA (79.2%)",
   currentRole: "Support Engineer @ E-Solutions IT Services",
   client: "CDSCO (Online National Drug Licensing System)",
   previousClient: "Tata Power (AMISP Smart Metering - BAMS)",
   coreStack: ["Java", "Spring Boot", "TypeScript", "React", "Next.js", "MSSQL", "PostgreSQL"],
+  portfolio: "https://ankitosh-portfolio.vercel.app/",
   contact: {
     email: "ankitoshgupta4379@gmail.com",
     phone: "+91 8271311102",
@@ -48,7 +50,22 @@ const Home = () => {
                     </div>
 
                     <h1 className="home__name">Ankitosh Kumar</h1>
-                    <h2 className="home__education">Application Engineer & Full Stack Developer</h2>
+                    <h2 className="home__education">
+                        <Typewriter 
+                            words={[
+                                "an Application Support Engineer",
+                                "a Full Stack Software Developer",
+                                "a Java & Spring Boot Specialist",
+                                "a React & Next.js Developer",
+                                "an Enterprise SQL & Database Specialist",
+                                "a CDSCO Application Support Lead"
+                            ]}
+                            prefix="I'm "
+                            typingSpeed={75}
+                            deletingSpeed={35}
+                            pauseDuration={2000}
+                        />
+                    </h2>
 
                     <p className="home__bio">
                         Computer Applications post-graduate (MCA) with hands-on experience supporting enterprise & government web applications (CDSCO & Tata Power), SQL database optimization, Java/Spring backends, and building modern full-stack web applications with React, Next.js & TypeScript.
@@ -121,6 +138,7 @@ const Home = () => {
 {'    '}<span className="token-property">focus</span>: <span className="token-string">"MSSQL, Java/Spring, Defect Resolution"</span>{'\n'}
 {'  '}&#125;,{'\n'}
 {'  '}<span className="token-property">highlightProjects</span>: [<span className="token-string">"WorkMate AI"</span>, <span className="token-string">"BAMS"</span>, <span className="token-string">"Clinic Care"</span>],{'\n'}
+{'  '}<span className="token-property">portfolio</span>: <span className="token-string">"https://ankitosh-portfolio.vercel.app/"</span>,{'\n'}
 {'  '}<span className="token-property">isReadyToCode</span>: <span className="token-boolean">true</span>{'\n'}
 &#125;;
                         </code>
